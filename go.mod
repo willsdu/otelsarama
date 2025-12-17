@@ -1,4 +1,4 @@
-module github.com/dnwe/otelsarama
+module github.com/willsdu/otelsarama
 
 go 1.19
 
