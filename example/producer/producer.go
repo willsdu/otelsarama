@@ -29,8 +29,8 @@ import (
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
 
-	"github.com/dnwe/otelsarama"
-	"github.com/dnwe/otelsarama/example"
+	"github.com/willsdu/otelsarama"
+	"github.com/willsdu/otelsarama/example"
 )
 
 var brokers = flag.String("brokers", os.Getenv("KAFKA_PEERS"), "The Kafka brokers to connect to, as a comma separated list")
